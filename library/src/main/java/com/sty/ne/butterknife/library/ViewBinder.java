@@ -6,5 +6,5 @@ package com.sty.ne.butterknife.library;
 
 public interface ViewBinder<T> {
 
-    void bind(T t);
+    void bind(T target);
 }

@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //相当于new MainActivity$ViewBinder(this)
         ButterKnife.bind(this);
 
         tv.setText("修改后的文字");
