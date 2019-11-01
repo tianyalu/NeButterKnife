@@ -10,7 +10,7 @@ public class ButterKnife {
 
     public static void bind(Activity activity) {
 
-        //找到一个类：MainActivity_ViewBinder，调用这个类的构造方法
+        //找到一个类：MainActivity$ViewBinder，调用这个类的构造方法
         String className = activity.getClass().getName() + "$ViewBinder";
 
         try {
