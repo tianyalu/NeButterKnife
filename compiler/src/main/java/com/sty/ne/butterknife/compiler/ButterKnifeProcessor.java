@@ -64,7 +64,7 @@ public class ButterKnifeProcessor extends AbstractProcessor {
         types.add(BindView.class.getCanonicalName());
         types.add(OnClick.class.getCanonicalName());
         //types.add(...);
-        return super.getSupportedAnnotationTypes();
+        return types;
     }
 
     // 因为是在JDK环境编译，指定编译的版本
